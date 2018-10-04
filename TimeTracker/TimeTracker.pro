@@ -26,11 +26,17 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
         MainView.cpp \
-    Mediator.cpp
+    Mediator.cpp \
+    DialogSettings.cpp \
+    DialogStatistics.cpp
 
 HEADERS += \
         MainView.h \
-    Mediator.h
+    Mediator.h \
+    DialogSettings.h \
+    DialogStatistics.h
 
 FORMS += \
-        MainView.ui
+        MainView.ui \
+    DialogSettings.ui \
+    DialogStatistics.ui
