@@ -19,6 +19,7 @@ signals:
 public slots:
 
 private:
+    void start();
     void initMembers();
 
 private:
